@@ -1,0 +1,410 @@
+body {
+    margin: 0px;
+    font-family: arial;
+}
+
+/* red */
+
+#red {
+    background-color: red;
+    margin: 0px;
+    height: 23px;
+    text-align: right;
+    color: white;
+    font-size: 13px;
+    padding-top: 6px;
+    padding-right: 100px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+}
+
+ul#log {
+    margin: 0px;
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+
+span#face {
+    padding: 10px;
+}
+
+a#face {
+    color: white;
+    text-decoration: none;
+}
+
+a#face:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/* red */
+
+/* table */
+
+.head {
+    width: 100%;
+    height: 100px;
+}
+
+/* input */
+
+td#a {
+    width: 350px;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+}
+
+input[type=text] {
+    border-bottom: 1px solid rgb(170, 170, 170);
+    width: 200px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 0px 0px 10px 10px;
+    font-size: 15px;
+}
+
+::placeholder {
+    color: rgb(185, 184, 184);
+    font-style: italic;
+}
+
+/* input */
+
+/* bata */
+
+td#b {
+    width: 650px;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+}
+
+.bata {
+    height: 60px;
+}
+
+/* bata */
+
+/* button */
+
+td#c {
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+}
+
+button#c {
+    background-color: red;
+    color: white;
+    border: 0px solid red;
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+}
+
+a#cart {
+    color: black;
+    text-decoration: none;
+}
+
+/* button */
+
+/* table */
+
+/* menu */
+
+#ul {
+    margin: 0px;
+    list-style-type: none;
+    display: inline;
+}
+
+div#men {
+    border: 0px solid black;
+    width: 350px;
+    margin-left: 500px;
+    font-size: 12px;
+}
+
+a#a {
+    color: white;
+}
+
+/* menu */
+
+/* main */
+
+div#home {
+    border: 0px solid black;
+    height: 30px;
+    padding: 20px 0px 0px 100px;
+    font-size: 11px;
+    background-color: rgb(238, 238, 238);
+    font-weight: bold;
+    color: gray;
+}
+
+/* images and details */
+
+#maint {
+    margin: 10px 50px 10px 90px;
+    padding: 0px;
+}
+
+#m {
+    /* border: 1px solid black; */
+    margin: 0px;
+    height: 500px;
+}
+
+#imgshort {
+    height: 120px;
+    border: 1px solid rgb(151, 151, 151);
+    width: 120px;
+}
+
+#imglong {
+    height: 500px;
+    width: 500px;
+    /* border: 1px solid black; */
+}
+
+div#detail {
+    /* border: 1px solid black; */
+    margin: 0px;
+}
+
+#add {
+    border-width: 0px;
+    width: 400px;
+    height: 35px;
+    font-weight: 900;
+    color: white;
+    background-color: red;
+    border-color: red;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1#detail {
+    margin-bottom: 0px;
+    font-weight: 100;
+}
+
+h5#detail {
+    margin-top: 0px;
+    margin-left: 5px;
+    color: rgb(179, 176, 176);
+    font-weight: 700;
+}
+
+h3#details {
+    margin: 40px 0px 5px 0px;
+}
+
+h3#detail {
+    margin: 0px;
+}
+
+input[type=color] {
+    padding: 5px;
+    background-color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+button#detail {
+    background-color: white;
+    border: 1px solid rgb(231, 231, 231);
+    font-weight: bold;
+    color: gray;
+    margin: 15px 3px;
+    width: 50px;
+}
+
+/* images and details */
+
+/* review */
+
+div#re1 {
+    /* border: 1px solid black; */
+    padding: 0px 90px;
+    margin: 250px 0px 50px 0px;
+}
+
+div#re2 {
+    border: 1px solid rgb(231, 231, 231);
+    padding: 20px;
+}
+
+button#review {
+    height: 40px;
+    width: 100px;
+    background-color: rgb(241, 241, 241);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid black;
+    color: black;
+    font-weight: 800;
+    font-size: 13px;
+}
+
+button#submit {
+    border-width: 0px;
+    margin-top: 40px;
+    width: 150px;
+    height: 35px;
+    font-weight: 900;
+    color: white;
+    background-color: red;
+    border-color: red;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p#review {
+    color: rgb(94, 92, 92);
+    font-size: 14px;
+}
+
+input#review {
+    background-color: rgb(241, 241, 241);
+    border-width: 0px;
+    height: 30px;
+    width: 500px
+}
+
+textarea#review {
+    background-color: rgb(241, 241, 241);
+    border-width: 0px;
+    height: 80px;
+    width: 500px
+}
+
+/* review */
+
+/* footer */
+
+div#footer {
+    /* border: 1px solid black; */
+    background-color: rgb(251, 251, 251)
+}
+
+/* subscribe div */
+
+div#subscribe {
+    /* border: 1px solid black; */
+    text-align: center;
+    margin: 20px;
+}
+
+span#subscribe {
+    font-weight: 700;
+    margin: 0px 0px 0px 0px;
+}
+
+input#subscribe {
+    border: 1px solid rgb(207, 207, 207);
+    height: 25px;
+    width: 330px;
+    margin: 0px 0px 0px 15px;
+}
+
+button#subscribe {
+    border-width: 0px;
+    margin: 10px 0px 0px 0px;
+    width: 100px;
+    height: 30px;
+    font-weight: 900;
+    color: white;
+    background-color: red;
+    border-color: red;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* subscribe div */
+
+/* links */
+
+div#links {
+    /* border: 1px solid black; */
+    height: 300px;
+}
+
+ul#links {
+    float: left;
+    list-style-type: none;
+    margin: 20px 45px 20px 45px;
+}
+
+li#hlinks {
+    float: none;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+li#links {
+    float: none;
+    font-size: 12px;
+    color: rgb(70, 70, 70);
+    padding-bottom: 10px;
+}
+
+li#links:hover {
+    color: red;
+    cursor: pointer;
+}
+
+/* links */
+
+/* last */
+
+div#last {
+    /* border: 1px solid black; */
+    
+}
+
+h3#last {
+    margin: 20px 75px 20px 75px;
+    color: rgb(70, 70, 70);
+    font-weight: 200;
+}
+
+p#last {
+    margin: 20px 75px 20px 75px;
+    font-size: 14px;
+    color: rgb(70, 70, 70);
+}
+
+P#last2 {
+    margin: 20px 75px 20px 75px;
+    color: red;
+    font-size: 14px;
+}
+P#last2:hover {
+    margin: 20px 75px 20px 75px;
+    color: red;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* last */
+/* last red */
+div#lastred{
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px 0px;
+}
+
+/* last red */
+
+
+/* footer */
